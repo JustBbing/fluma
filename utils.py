@@ -43,3 +43,6 @@ def load_setting_file():
 
 
 # print(datetime.strptime('2018-03-11-18-40-59', "%Y-%m-%d-%H-%M-%S"))  # 字符串转换成时间对象
+
+if __name__ == '__main__':
+    load_setting_file()
